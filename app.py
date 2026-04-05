@@ -1693,7 +1693,7 @@ elif fase == "🗺️ Fase 6 — Sintesis & Pemetaan":
 
         col1, col2, col3 = st.columns(3)
         with col1:
-            st.markdown('<div class="card"><h4>📊 LIWC</h4><strong>Level:</strong> Kata/token<br><strong>Output:</strong> Frekuensi kategori kata (% dari total)<br><strong>Kekuatan:</strong> Eksplisit, interpretabel, bisa divalidasi psikolog<br><strong>Kelemahan:</strong> Tidak memahami konteks kalimat<br><br>→ <em>"Kata 'tidak' muncul 5 kali"</em></div>', unsafe_allow_html=True)
+            st.markdown("""<div class="card"><h4>📊 LIWC</h4><strong>Level:</strong> Kata/token<br><strong>Output:</strong> Frekuensi kategori kata (% dari total)<br><strong>Kekuatan:</strong> Eksplisit, interpretabel, bisa divalidasi psikolog<br><strong>Kelemahan:</strong> Tidak memahami konteks kalimat<br><br>→ <em>"Kata 'tidak' muncul 5 kali"</em></div>""", unsafe_allow_html=True)
         with col2:
             st.markdown('<div class="card"><h4>🗂️ BERTopic</h4><strong>Level:</strong> Kalimat/paragraf<br><strong>Output:</strong> Tema laten (klaster semantik)<br><strong>Kekuatan:</strong> Memahami makna kontekstual, menemukan tema tak terduga<br><strong>Kelemahan:</strong> Tidak langsung mengklasifikasikan<br><br>→ <em>"Narasi ini bicara tentang beban pengasuhan sendiri"</em></div>', unsafe_allow_html=True)
         with col3:
